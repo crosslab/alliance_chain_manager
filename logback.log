@@ -1,0 +1,29 @@
+2019-12-26 22:26:06.631  INFO 10160 --- [main] .c.b.YLBlockchainManagerApplicationTests : Starting YLBlockchainManagerApplicationTests on SKY-20190512QBD with PID 10160 (started by Administrator in F:\Blockchain\alliance_chain_manager)
+2019-12-26 22:26:06.636  INFO 10160 --- [main] .c.b.YLBlockchainManagerApplicationTests : The following profiles are active: prod
+2019-12-26 22:26:06.706  INFO 10160 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@50dfbc58: startup date [Thu Dec 26 22:26:06 CST 2019]; root of context hierarchy
+2019-12-26 22:26:08.801  INFO 10160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5971c64b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-26 22:26:09.179  INFO 10160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-26 22:26:09.652  INFO 10160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-26 22:26:09.707  INFO 10160 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-26 22:26:09.731  INFO 10160 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-26 22:26:09.865  INFO 10160 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2019-12-26 22:26:09.867  INFO 10160 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-26 22:26:09.921  INFO 10160 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-12-26 22:26:10.084  INFO 10160 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-26 22:26:11.046  INFO 10160 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-26 22:26:13.376  INFO 10160 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@50dfbc58: startup date [Thu Dec 26 22:26:06 CST 2019]; root of context hierarchy
+2019-12-26 22:26:13.504  WARN 10160 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-26 22:26:13.589  INFO 10160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/member],methods=[GET]}" onto public com.crosslab.blockmanager.bean.MemberData com.crosslab.blockmanager.controller.MemberController.member(java.lang.String,java.lang.String,java.lang.String)
+2019-12-26 22:26:13.593  INFO 10160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/permission],methods=[GET]}" onto public com.crosslab.blockmanager.bean.PermissionData com.crosslab.blockmanager.controller.PermissionController.findGroupPermission(java.lang.String)
+2019-12-26 22:26:13.600  INFO 10160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-26 22:26:13.601  INFO 10160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-26 22:26:13.701  INFO 10160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-26 22:26:13.701  INFO 10160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-26 22:26:13.799  INFO 10160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-26 22:26:14.302  INFO 10160 --- [main] .c.b.YLBlockchainManagerApplicationTests : Started YLBlockchainManagerApplicationTests in 8.334 seconds (JVM running for 10.302)
+2019-12-26 22:26:14.687  INFO 10160 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@50dfbc58: startup date [Thu Dec 26 22:26:06 CST 2019]; root of context hierarchy
+2019-12-26 22:26:14.698  INFO 10160 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-26 22:26:14.699  INFO 10160 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-26 22:26:14.712  INFO 10160 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
